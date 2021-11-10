@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.required_ruby_version = '>= 2.4.2'
   s.executables << "svgo-ruby"
-  s.add_runtime_dependency "mini_racer", '0.2.5'
+  s.add_runtime_dependency "mini_racer", '>= 0.4.0'
   s.add_development_dependency "rake", '>= 0.11.3'
   s.add_development_dependency "pry"
 end
